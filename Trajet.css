@@ -1,0 +1,28 @@
+.Trajets-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.trajet-card {
+    background: var(--creme);
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 12px 30px var(--ombre);
+    animation: fadeUp 0.8s ease;
+    transition: transform 0.3s ease;
+}
+
+.trajet-card:hover 
+.testimonial-card:hover,
+.car-card:hover{
+    transform: translateY(-10px);
+}
+.trajet-card h3,
+.car-card h3 {
+    margin: 15px 0 10px;
+    color: var(--marron-fonce);
+    font-weight: 700;
+}
