@@ -15,6 +15,14 @@
     transition: transform 0.3s ease;
 }
 
-.trajet-card:hover {
+.trajet-card:hover 
+.testimonial-card:hover,
+.car-card:hover{
     transform: translateY(-10px);
+}
+.trajet-card h3,
+.car-card h3 {
+    margin: 15px 0 10px;
+    color: var(--marron-fonce);
+    font-weight: 700;
 }
