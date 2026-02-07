@@ -15,6 +15,7 @@ form{
 }
 .hero.reservation {
     background: var(--beige);
+    text-align:center;
 }
 
 .hero h1,
@@ -30,4 +31,5 @@ form{
     color: var(--text);
 
 }
+
 
