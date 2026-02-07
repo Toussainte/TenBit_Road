@@ -1,0 +1,28 @@
+form {
+    background: var(--creme);
+    padding: 35px;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 12px 30px var(--ombre);
+    max-width: 600;
+    margin: auto;
+    animation: fadeUp 1s ease;
+    color: var(--text);
+}
+
+label {
+    font-weight: 600;
+    margin-top: 18px;
+    display: block;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 25);
+    color: var(--text);
+}
