@@ -1,0 +1,20 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.car-card {
+    background: var(--creme);
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 12px 30px var(--ombre);
+    animation: fadeUp 0.8s ease;
+    transition: transform 0.3s ease;
+}
+
+.car-card:hover {
+    transform: translateY(-10px);
+}
