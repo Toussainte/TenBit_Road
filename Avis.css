@@ -1,0 +1,15 @@
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.testimonial-card {
+    background: var(--creme);
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 12px 30px var(--ombre);
+    animation: fadeUp 0.8s ease;
+}
