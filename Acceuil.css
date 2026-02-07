@@ -7,6 +7,11 @@
     align-items: center;
     animation: fadeUp 1s ease;
 }
+.hero,
+section,
+.container{
+    text-align: center;
+}
 .hero.reservation {
     background: var(--beige);
 }
@@ -22,4 +27,5 @@
     max-width: 600px;
     margin: 0 auto 30px;
     color: var(--text);
+
 }
