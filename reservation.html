@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation | TenBit-Road</title>
+    <link rel="stylesheet" href="Accueil.css">
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="Base.css">
+    <link rel="stylesheet" href="Footer.css">
+    <link rel="stylesheet" href="Trajet.css">
+    <link rel="stylesheet" href="Reservation.css">
+    <link rel="stylesheet" href="Recap.css">
+    <link rel="stylesheet" href="Vehicule.css">
+    <link rel="stylesheet" href="Confirmation.css">
+    <link rel="stylesheet" href="Avis.css">
+    <link rel="stylesheet" href="detail-trajet.css">
+    
+</head>
+<body>
+
+<header>
+    <nav class="logo">
+        <h1>TenBit-Road</h1>
+    </nav>
+<nav>
+    <ul>
+            <li><a href="Accueil.html">Accueil</a></li>
+            <li><a href="Trajet.html">Trajets</a></li>
+            <li><a href="reservation.html">Réservation</a></li>
+            <li><a href="avis.html">Avis</a></li>
+            <li><a href="footer.html">Contact</a></li>
+    </ul>
+</nav>
+</header>
+<div class="hero">
+<div class="hero-content">
+    <h1>Formulaire de réservation</h1>
+    <p>À remplir</p>
+</div>
+
+<main class="container">
+    <section class="reservation">
+        <h2>Choix du trajet</h2>
+
+        <!-- Formulaire qui envoie vers confirmation.html -->
+        <form action="recap.html" method="GET">
+ 
+      
+
+            <label>Nom du réservataire</label>
+            <input type="text" name="nom" required>
+
+           <label for="Trajets">Trajets</label>
+                <select id="Trajets">
+                    <option>Fianarantsoa - Antananarivo</option>
+                     <option>Fianarantsoa - Tulear</option>
+                      <option>Fianarantsoa - Mahajanga</option>
+                       <option>Fianarantsoa - Toamasina</option>
+                        <option>Fianarantsoa - Antsiranana</option>
+                </select>
+
+          <label for="passager">Nombre de passager</label>
+                <input type="number" id="passagers" min="1" max="20">
+
+            
+
+            <label>Téléphone</label>
+            <input type="tel" name="telephone" placeholder="+261 34 XX XX XX" required>
+
+            <label>Date de départ</label>
+            <input type="date" name="date" required>
+
+                <label>Heure de depart :</label>
+            <select required>
+                <option value="">-- Choisir --</option>
+                <option>06h00</option>
+                <option>12h00</option>
+                <option>18h00</option>
+            </select>
+
+          
+                <label for="vehicule">Type de vehicule</label>
+                <select id="vehicule">
+                    <option>Crafter</option>
+                    <option>Toyota Hyace</option>
+                    <option>Sprinter</option>
+                    <option>Starex</option>
+                </select>
+        </form>
+        <section>
+            <a href="recap.html" class="btn">Valider</a>
+            <a href="Accueil.html" class="btn">Retour</a>
+        </section>
+    </section>
+</main>
+</body>
+</html>
