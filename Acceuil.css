@@ -1,25 +1,28 @@
 .hero,
 .accueil,
-.home {
+.home-section {
     text-align: center;
-    padding: 90px 20px;
+    padding: 60px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     animation: fadeUp 1s ease;
+    min-height: center;
 }
 .hero h1,
 .hero h2 {
     color: var(--marron-fonce);
     margin-bottom: 15px;
     font-weight: 700;
+    font-size: 2.5rem;
 }
 .hero p {
     max-width: 600px;
-    margin: 0 auto 30px;
     color: var(--text);
+    line-height:1.6;
 }
+
 
 
 
