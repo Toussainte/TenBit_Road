@@ -1,0 +1,29 @@
+header {
+    background: var(--creme);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 6px 18px var(--ombre);
+}
+
+.logo
+.logo h1 {
+    color: var(--marron-fonce);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--marron);
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 5px;
+}
